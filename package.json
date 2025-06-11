@@ -1,15 +1,26 @@
 {
   "name": "findymail-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript wrapper for the Findymail API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imranKhanTsx/findymail-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imranKhanTsx/findymail-ts/issues"
+  },
+  "homepage": "https://github.com/imranKhanTsx/findymail-ts#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
+      "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
   },
